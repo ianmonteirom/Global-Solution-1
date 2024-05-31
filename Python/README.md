@@ -42,6 +42,8 @@ Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/2625f930-e622-43d1-a7f3-6d6385140acd)
 - Ao escolher a opção 7, o sistema mostra todos os pescadores e seus IDs únicos no sistema:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/890b08a1-e38c-475b-bd4a-1d817c4370b1)
+- Ao escolher a opção 9, o programa é finalizado:
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/02c3cd02-e9f0-4804-8b0b-34b485770ad1)
 
 
 
