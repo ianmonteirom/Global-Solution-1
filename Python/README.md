@@ -37,7 +37,8 @@ Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor
 - Ao escolher a opção 6, é possível registrar um novo relatório de pesca:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/68c993e6-41d0-43e5-a80c-1e509fd67ee4)
 - Ao escolher a opção 5, o sistema mostra todas os relatórios de pesca registrados no sistema:
-![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/72bbdde4-c84e-468b-83af-b5882dca87b0)
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/a06550fd-c393-4d43-9f42-65b9a59784ff)
+
 
 
 
