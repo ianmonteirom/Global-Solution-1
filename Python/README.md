@@ -15,4 +15,14 @@
   
 ## ✅ A Solução pensada
 Resolvi focar no problema da superexploração da pesca, que causa desequilíbrios alarmantes na vida marítima e na sua cadeia alimentar, podendo até mesmo causar a extinção de espécies de peixes.
-- Para isso, pensei no desenvolvimento de um sistema que será utilizado por pescadores e funcionários do Ministério da Pesca e da Agricultura, responsáveis pela regulamentação da pesca. 
+- Para isso, pensei no desenvolvimento de um sistema que será utilizado por pescadores e funcionários do Ministério da Pesca e da Agricultura, responsáveis pela regulamentação da pesca. O sistema contará com as funcionalidades:
+  - Registro dos pescadores com a geração de um ID único para cada um.
+  - Relatórios diários de pesca dos pescadores, com a quantidade de peixes pescados por espécie
+  - Registro e visualização de áreas de pesca no sistema, com seu status (Liberada ou Proibida para pesca)
+  - Registro e visualização de espécies de peixes no sistema, com seu status (Liberada para pesca ou em Risco/Ameaça)
+- O sistema auxiliará na organização de ambos os lados, para mantê-los sempre atualizados com as áreas e espécies liberadas e proibidas para pesca, para ajudar os pescadores a pescarem de acordo com a lei, e para auxiliar os funcionários do governo a multar corretamente.
+
+## 🐍 A Solução em Python
+Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor entendimento de como ele funcionará.
+- Ao executar o programa, caso os arquivos onde os dados serão salvos não existam ainda, eles são criados, e logo após o menu com as funcionalidades do sistema aparecem.
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/19f9e575-c498-47cc-99a4-1d1f674f3216)
