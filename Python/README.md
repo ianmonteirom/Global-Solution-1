@@ -38,6 +38,10 @@ Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/68c993e6-41d0-43e5-a80c-1e509fd67ee4)
 - Ao escolher a opção 5, o sistema mostra todas os relatórios de pesca registrados no sistema:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/a06550fd-c393-4d43-9f42-65b9a59784ff)
+- Ao escolher a opção 8, é possível registrar um novo pescador no sistema, gerando um ID único:
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/2625f930-e622-43d1-a7f3-6d6385140acd)
+- Ao escolher a opção 7, o sistema mostra todos os pescadores e seus IDs únicos no sistema:
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/890b08a1-e38c-475b-bd4a-1d817c4370b1)
 
 
 
