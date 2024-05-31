@@ -3,6 +3,7 @@
 ## 🛠️ Feito por 
 - Nome: Ian Monteiro Moreira
 - RM: 558652
+- Turma: 1ESPH
 
 ## 🌊 Global Solution 2024 - Oceans 20
 - A Global Solution de 2024 trouxe o grupo Oceans 20, ou O20, 
