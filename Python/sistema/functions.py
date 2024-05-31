@@ -70,8 +70,8 @@ def ler_arquivo(arq):
             dado = linhas.split(';')
             if arq == arq_relatorios_pesca:
                 dado[4] = dado[4].replace('\n', '')
-                print(f'Espécie: {dado[0]:<15} {espaco:>4}Qntd: {dado[1]:>5} {espaco:>4} '
-                      f'Data:{dado[2]}/{dado[3]} {espaco:>4} ID do Pescador: {dado[4]}')
+                print(f'Espécie: {dado[0]:<15} {espaco:>3}Qntd: {dado[1]:>5} {espaco:>4} '
+                      f'Data: {dado[2]:>2}/{dado[3]:>2} {espaco:>4} ID do Pescador: {dado[4]}')
             else:
                 dado[1] = dado[1].replace('\n', '')
             if arq == arq_areas_pesca:
