@@ -15,7 +15,7 @@
   
 ## ✅ A Solução pensada
 Resolvi focar no problema da superexploração da pesca, que causa desequilíbrios alarmantes na vida marítima e na sua cadeia alimentar, podendo até mesmo causar a extinção de espécies de peixes.
-- Para isso, pensei no desenvolvimento de um sistema que será utilizado por pescadores e funcionários do Ministério da Pesca e da Agricultura, responsáveis pela regulamentação da pesca. O sistema contará com as funcionalidades:
+- Para isso, pensei no desenvolvimento de um sistema que será utilizado por pescadores e funcionários do Ministério da Pesca e da Agricultura, responsáveis pela regulamentação da pesca, apelidado como "Fish Track". O Fish Track contará com as funcionalidades:
   - Registro dos pescadores com a geração de um ID único para cada um.
   - Relatórios diários de pesca dos pescadores, com a quantidade de peixes pescados por espécie
   - Registro e visualização de áreas de pesca no sistema, com seu status (Liberada ou Proibida para pesca)
