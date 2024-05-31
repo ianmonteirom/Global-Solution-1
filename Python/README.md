@@ -28,3 +28,5 @@ Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/19f9e575-c498-47cc-99a4-1d1f674f3216)
 - Ao escolher a opção 2, é possível registrar uma nova área de pesca no sistema.
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/ec5bc545-322e-433b-b01c-bbc8972be4b2)
+- Ao escolher a opção 1, o sistema mostra todas as áreas de pesca registradas no sistema.
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/9ff299cc-0e58-4492-92ff-acd6b4d3c083)
