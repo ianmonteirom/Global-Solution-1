@@ -23,7 +23,7 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 - O sistema auxiliará na organização de ambos os lados, para mantê-los sempre atualizados com as áreas e espécies liberadas e proibidas para pesca, para ajudar os pescadores a pescarem de acordo com a lei, e para auxiliar os funcionários do governo a multar corretamente.
 
 ## 🐍 A Solução em Python
-Um protótipo do sistema foi desenvolvido em Python, para possibilitar um melhor entendimento de como ele funcionará.
+Um protótipo do Fish Track foi desenvolvido em Python, para possibilitar um melhor entendimento de como ele funcionará.
 - Ao executar o programa, caso os arquivos onde os dados serão salvos não existam ainda, eles são criados, e logo após o menu com as funcionalidades do sistema aparecem:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/19f9e575-c498-47cc-99a4-1d1f674f3216)
 - Ao escolher a opção 2, é possível registrar uma nova área de pesca no sistema, e seu status:
