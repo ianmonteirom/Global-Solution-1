@@ -1,16 +1,19 @@
+# Importação de Bibliotecas para uso no algorítmo
 from time import sleep
 from random import randint
 
+# Declaração de variáveis com o valor dos nomes dos arquivos para uso no algorítmo
 arq_areas_pesca = 'areaspesca.txt'
 arq_especies = 'especies.txt'
 arq_relatorios_pesca = 'relatoriospesca.txt'
 arq_registros_pescadores = 'registrospescadores.txt'
 
-
+# Declaração de variáveis com valores de cores para uso no console
 limpa_cor, vermelho, verde, amarelo, azul, azul_claro = ('\033[m', '\033[31m', '\033[32m', '\033[33m', '\033[34m',
-                                                        '\033[36m')
+                                                         '\033[36m')
 
 
+# Função que valida se os arquivos já existem ou não, caso não exista, cria eles
 def validar_arquivos(arqap, arqe, arqrelp, arqregp):
     if not existe_arquivo(arqap):
         criar_arquivo(arqap)
@@ -22,6 +25,7 @@ def validar_arquivos(arqap, arqe, arqrelp, arqregp):
         criar_arquivo(arqregp)
 
 
+# Função que checa se o arquivo existe ou não, caso exista retorna True, caso não exista retorna False
 def existe_arquivo(arq):
     try:
         a = open(arq, 'rt')
@@ -33,6 +37,7 @@ def existe_arquivo(arq):
         return True
 
 
+# Função que cria um arquivo
 def criar_arquivo(arq):
     try:
         a = open(arq, 'wt+')
@@ -45,6 +50,7 @@ def criar_arquivo(arq):
         a.close()
 
 
+# Função que lê um arquivo e mostra seus dados formatados no console
 def ler_arquivo(arq):
     espaco = ''
     try:
@@ -79,6 +85,7 @@ def ler_arquivo(arq):
         a.close()
 
 
+# Função que cadastra uma área de pesca nova no sistema
 def cadastrar_area(arq, nome='desconhecida', status='desconhecido'):
     try:
         a = open(arq, 'at')
@@ -89,6 +96,7 @@ def cadastrar_area(arq, nome='desconhecida', status='desconhecido'):
         a.close()
 
 
+# Função que cadastra uma espécie de peixe nova no sistema
 def cadastrar_especie(arq, nome='desconhecida', status='desconhecido'):
     try:
         a = open(arq, 'at')
@@ -99,6 +107,7 @@ def cadastrar_especie(arq, nome='desconhecida', status='desconhecido'):
         a.close()
 
 
+# Função que registra um novo relatório de pesca no sistema
 def registrar_relatorio_pesca(arq, especie='desconhecido', qntd=0, dia=0, mes=0, id_p=0):
     try:
         a = open(arq, 'at')
@@ -109,6 +118,7 @@ def registrar_relatorio_pesca(arq, especie='desconhecido', qntd=0, dia=0, mes=0,
         a.close()
 
 
+# Função que cadastra um pescador novo no sistema
 def cadastrar_pescador(arq, nome='desconhecido', id_p=0):
     try:
         a = open(arq, 'at')
@@ -119,16 +129,19 @@ def cadastrar_pescador(arq, nome='desconhecido', id_p=0):
         a.close()
 
 
+# Função que retorna uma linha horizontal
 def linha():
     return '--' * 42
 
 
+# Função que printa no console um cabeçalho com o texto desejado no centro
 def cabecalho(txt):
     print(linha())
     print(txt.center(84))
     print(linha())
 
 
+# Função que lê um número inteiro e não deixa dar erro no sistema.
 def ler_int(txt):
     while True:
         try:
@@ -139,16 +152,19 @@ def ler_int(txt):
             return n
 
 
+# Lista que contém todas as opções do menu do console que aparecem para o usuário
 opcoes = ['Verificar Áreas de Pesca', 'Registrar Nova Área de Pesca', 'Verificar Espécies de Peixe',
           'Registrar Nova Espécie de Peixe', 'Verificar Relatórios de Pesca', 'Novo Relatório de Pesca',
           'Verificar Registros de Pescador', 'Novo Registro de Pescador', 'Sair do Sistema']
 
 
+# Função que printa cada opção do menu no console formatado
 def menu(opc):
     for i in range(len(opc)):
         print(f'{amarelo}{i + 1}{limpa_cor} - {azul}{opc[i]}{limpa_cor}')
 
 
+# Função que executa o programa principal
 def programa_principal():
     while True:
         cabecalho('Sistema de Controle de Pesca')
