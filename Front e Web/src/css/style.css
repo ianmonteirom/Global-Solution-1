@@ -44,6 +44,10 @@ header h1 a{
     color: black;
 }
 
+header h1 a:hover {
+    color: white;
+}
+
 #menu {
     display: flex;
     padding: 20px;
@@ -58,8 +62,7 @@ header h1 a{
 }
 
 #menu a:hover {
-    color: bisque;
-    font-size: 20px;
+    color: white;
 }
 
 #btnMob {
@@ -99,7 +102,7 @@ div {
 
 div img {
     max-height: 550px;
-    padding-top: 20px;
+    margin-top: 2%;
 }
 
 

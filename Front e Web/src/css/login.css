@@ -94,7 +94,7 @@ h2 {
 }
 
 .confirmacao .entrar:hover {
-    color: bisque;
+    color: white;
     cursor: pointer;
 }
 
@@ -104,4 +104,3 @@ footer {
     justify-content: center;
     padding-bottom: 10px;
 }
-
