@@ -1,17 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+    --bg-color: #84D5F5;
+    --bg-color2: #8FB9CA;
+    --color1: #74cff0;
+    --color2: #87B8CA;
+    --color3: #8599A0;
+    --color4: #182C33;
+    --color5: #A9C2EB;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body { 
+    background-color: var(--bg-color);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color1);
+    position: fixed;
+}
+
+header h1 a{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding-left: 20px;
+    color: black;
+}
+
+#menu {
+    display: flex;
+    padding: 20px;
+}
+
+#menu a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: black;
+}
+
+#menu a:hover {
+    color: bisque;
+    font-size: 20px;
+}
+
+#btnMob {
+    display: none;
 }
 
 section {
-    height: 100vh;
+    min-height: 65vh;
+    width: 100%;
+    padding-top: 10%;
+    
 }
+
+section div h2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 60px;
+    padding: 2rem;
+}
+
+section div p {
+    padding: 50px;
+    text-align: right;
+    width: 25%;
+    line-height: 2rem;
+}
+
+div {
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    width: 60%;
+    background-color: var(--bg-color2);
+    border-radius: 20px;
+    min-height: 600px;
+    box-shadow: 0.2px 0.2px black;
+}
+
+div img {
+    max-height: 550px;
+    padding-top: 20px;
+}
+
+
+#imgBanner {
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 1px 1px black;
+}
+
 
 footer {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
