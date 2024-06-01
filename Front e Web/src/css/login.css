@@ -27,8 +27,7 @@ body {
 }
 
 main {
-    margin-top: 10%;
-    margin-bottom: 18%;
+    min-height: 765px;
 }
 
 #dadosuser {
@@ -50,6 +49,16 @@ h1 {
     padding-bottom: 4%;
     display: flex;
     justify-content: center;
+}
+
+#logo a{
+    font-family: var(--font-logo);
+    color: black;
+    font-size: 150px;
+}
+
+#logo a:hover {
+    color: white;
 }
 
 h2 {

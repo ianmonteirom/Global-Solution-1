@@ -1,7 +1,23 @@
 // alert('Seja bem-vindo!') 
 
-// SlideShow Automático
-let imagens=['./src/assets/pesca1.jpg','./src/assets/pesca2.jpg','./src/assets/pesca3.jpg'];
+// SlideShow da Sessão do Problema
+let imagensProblema=['./src/assets/problemapesca.jpg','./src/assets/problemapesca2.png','./src/assets/problemapesca3.jpg'];
+let indexProblema = 0;
+let timeProblema = 3000;
+
+function slideShowProblema(){
+    document.getElementById('imgProblema').src=imagensProblema[indexProblema];
+    indexProblema++;
+
+    if(indexProblema == imagensProblema.length){
+        indexProblema = 0;
+    }
+    setTimeout('slideShowProblema()', timeProblema);
+}
+slideShowProblema();
+
+// SlideShow da Sessão da Tecnologia
+let imagens=['./src/assets/img/bike1.png','./src/assets/img/bike2.jpg','./src/assets/img/bike3.jpg', './src/assets/img/bike4.jpg'];
 let index = 0;
 let time = 3000;
 
@@ -16,12 +32,3 @@ function slideShow(){
 }
 slideShow();
 
-function clickMenu(){
-    if(item.style.display == 'block') {
-        item.style.display ='block'
-    } else {
-        item.style.display = 'block'
-
-    }
-
-}
