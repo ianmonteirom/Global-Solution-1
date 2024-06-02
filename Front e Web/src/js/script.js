@@ -65,7 +65,7 @@ function slideShowPublicoAlvo(){
 slideShowPublicoAlvo();
 
 // SlideShow da Sessão dos Benefícios
-let imagensBeneficios=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let imagensBeneficios=['./src/assets/beneficios.jpg','./src/assets/beneficios2.jpg','./src/assets/beneficios3.jpg'];
 let indexBeneficios = 0;
 let timeBeneficios = 3000;
 
@@ -81,7 +81,7 @@ function slideShowBeneficios(){
 slideShowBeneficios();
 
 // SlideShow da Sessão do Dia a Dia
-let imagenDiaadia=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let imagensDiaadia=['./src/assets/diaadia.png','./src/assets/diaadia2.png','./src/assets/diaadia3.png','./src/assets/diaadia4.png','./src/assets/diaadia5.png','./src/assets/diaadia6.png','./src/assets/diaadia7.png','./src/assets/diaadia8.png','./src/assets/diaadia9.png'];
 let indexDiaadia = 0;
 let timeDiaadia = 3000;
 
