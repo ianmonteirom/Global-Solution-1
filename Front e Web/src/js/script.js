@@ -17,18 +17,81 @@ function slideShowProblema(){
 slideShowProblema();
 
 // SlideShow da Sessão da Tecnologia
-let imagens=['./src/assets/img/bike1.png','./src/assets/img/bike2.jpg','./src/assets/img/bike3.jpg', './src/assets/img/bike4.jpg'];
-let index = 0;
-let time = 3000;
+let imagensTecnologia=['./src/assets/img/','./src/assets/img/','./src/assets/img/', './src/assets/img/'];
+let indexTecnologia = 0;
+let timeTecnologia = 3000;
 
-function slideShow(){
-    document.getElementById('imgBanner').src=imagens[index];
-    index++;
+function slideShowTecnologia(){
+    document.getElementById('imgTecnologia').src=imagensTecnologia[indexTecnologia];
+    indexTecnologia++;
 
-    if(index == imagens.length){
-        index = 0;
+    if(indexTecnologia == imagensTecnologia.length){
+        indexTecnologia = 0;
     }
-    setTimeout('slideShow()', time);
+    setTimeout('slideShowTecnologia()', timeTecnologia);
 }
-slideShow();
+slideShowTecnologia();
 
+// SlideShow da Sessão dos Objetivos
+let imagensObjetivos=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let indexObjetivos = 0;
+let timeObjetivos = 3000;
+
+function slideShowObjetivos(){
+    document.getElementById('imgObjetivos').src=imagensObjetivos[indexObjetivos];
+    indexObjetivos++;
+
+    if(indexObjetivos == imagensObjetivos.length){
+        indexObjetivos = 0;
+    }
+    setTimeout('slideShowObjetivos()', timeObjetivos);
+}
+slideShowObjetivos();
+
+// SlideShow da Sessão do Público-Alvo
+let imagensPublicoAlvo=['./src/assets/','./src/assets/i','./src/assets/', './src/assets/'];
+let indexPublicoAlvo = 0;
+let timePublicoAlvo = 3000;
+
+function slideShowPublicoAlvo(){
+    document.getElementById('imgPublicoAlvo').src=imagensPublicoAlvo[indexPublicoAlvo];
+    indexPublicoAlvo++;
+
+    if(indexPublicoAlvo == imagensPublicoAlvo.length){
+        indexPublicoAlvo = 0;
+    }
+    setTimeout('slideShowPublicoAlvo()', timePublicoAlvo);
+}
+slideShowPublicoAlvo();
+
+// SlideShow da Sessão dos Benefícios
+let imagensBeneficios=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let indexBeneficios = 0;
+let timeBeneficios = 3000;
+
+function slideShowBeneficios(){
+    document.getElementById('imgBeneficios').src=imagensBeneficios[indexBeneficios];
+    indexBeneficios++;
+
+    if(indexBeneficios == imagensBeneficios.length){
+        indexBeneficios = 0;
+    }
+    setTimeout('slideShowBeneficios()', timeBeneficios);
+}
+slideShowBeneficios();
+
+// SlideShow da Sessão do Dia a Dia
+let imagenDiaadia=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let indexDiaadia = 0;
+let timeDiaadia = 3000;
+
+function slideShowDiaadia(){
+    document.getElementById('imgDiaadia').src=imagensDiaadia[indexDiaadia];
+    indexDiaadia++;
+
+    if(indexDiaadia == imagensDiaadia.length){
+        indexDiaadia = 0;
+    }
+    setTimeout('slideShowDiaadia()', timeDiaadia);
+}
+slideShowDiaadia();
