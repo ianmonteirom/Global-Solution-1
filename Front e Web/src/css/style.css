@@ -78,12 +78,13 @@ section {
 
 section div h2 {
     font-family: "Lobster", sans-serif;
+    width: 300px;
     font-size: 60px;
     padding: 2rem;
 }
 
 section div p {
-    padding: 50px;
+    padding: 60px;
     text-align: right;
     width: 25%;
     line-height: 2rem;
@@ -97,13 +98,15 @@ div {
     background-color: var(--bg-color2);
     border-radius: 20px;
     min-height: 600px;
-    box-shadow: 0.2px 0.2px black;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 div img {
-    max-height: 550px;
+    height: 550px;
     width: 500px;
     margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 

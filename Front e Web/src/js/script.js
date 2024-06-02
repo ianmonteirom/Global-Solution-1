@@ -1,7 +1,7 @@
 // alert('Seja bem-vindo!') 
 
 // SlideShow da Sessão do Problema
-let imagensProblema=['./src/assets/problemapesca.jpg','./src/assets/problemapesca2.png','./src/assets/problemapesca3.jpg'];
+let imagensProblema=['./src/assets/problemapesca.jpg','./src/assets/problemapesca2.jpg','./src/assets/problemapesca3.jpg'];
 let indexProblema = 0;
 let timeProblema = 3000;
 
@@ -17,7 +17,7 @@ function slideShowProblema(){
 slideShowProblema();
 
 // SlideShow da Sessão da Tecnologia
-let imagensTecnologia=['./src/assets/img/','./src/assets/img/','./src/assets/img/', './src/assets/img/'];
+let imagensTecnologia=['./src/assets/database.jpg','./src/assets/database2.jpg','./src/assets/database3.jpg'];
 let indexTecnologia = 0;
 let timeTecnologia = 3000;
 
@@ -33,7 +33,7 @@ function slideShowTecnologia(){
 slideShowTecnologia();
 
 // SlideShow da Sessão dos Objetivos
-let imagensObjetivos=['./src/assets/','./src/assets/','./src/assets/', './src/assets/'];
+let imagensObjetivos=['./src/assets/objetivos.jpg','./src/assets/objetivos2.jpg','./src/assets/objetivos3.jpg'];
 let indexObjetivos = 0;
 let timeObjetivos = 3000;
 
@@ -49,7 +49,7 @@ function slideShowObjetivos(){
 slideShowObjetivos();
 
 // SlideShow da Sessão do Público-Alvo
-let imagensPublicoAlvo=['./src/assets/','./src/assets/i','./src/assets/', './src/assets/'];
+let imagensPublicoAlvo=['./src/assets/publico.jpg','./src/assets/publico2.jpg','./src/assets/publico3.jpg'];
 let indexPublicoAlvo = 0;
 let timePublicoAlvo = 3000;
 
