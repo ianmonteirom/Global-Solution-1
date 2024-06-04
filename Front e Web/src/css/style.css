@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: "Abyssopelagic";
+    src: url('/src/assets/abyssopelagic.otf') format('opentype');
+}
 
 :root {
     --bg-color: #84D5F5;
@@ -10,6 +15,12 @@
     --color3: #8599A0;
     --color4: #182C33;
     --color5: #A9C2EB;
+
+    --cor1: #579CB4;
+    --cor2: #84D4F4;
+    --cor3: #243C4C;
+    --cor4: #658896;
+    --cor5: #8CBCCC;
 }
 
 * {
@@ -22,17 +33,15 @@
 }
 
 body { 
-    background-color: var(--bg-color);
+    background-color: var(--cor2);
 }
-
-
 
 header {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-between;
-    background: var(--color1);
+    background: var(--cor3);
     position: fixed;
 }
 
@@ -69,6 +78,18 @@ header h1 a:hover {
     display: none;
 }
 
+#btnLogin {
+    background-color: var(--cor1);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#btnLogin:hover {
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
 section {
     min-height: 65vh;
     width: 100%;
@@ -77,15 +98,17 @@ section {
 }
 
 section div h2 {
-    font-family: "Lobster", sans-serif;
+    font-family: "Abyssopelagic", sans-serif;
+    font-weight: 900;
     width: 300px;
     font-size: 60px;
     padding: 2rem;
+    margin-right: auto;
 }
 
 section div p {
     padding: 60px;
-    text-align: right;
+    text-align: justify;
     width: 25%;
     line-height: 2rem;
 }
@@ -95,7 +118,7 @@ div {
     display: flex;
     margin: auto;
     width: 60%;
-    background-color: var(--bg-color2);
+    background-color: var(--cor4);
     border-radius: 20px;
     min-height: 600px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
