@@ -16,9 +16,6 @@ curva_ajustada = a * anos**2 + b * anos + c
 t = 5
 num_indivs_5anos = a * t**2 + b * t + c
 
-# Encontrando o tempo onde a população é mínima
-tempo_minimo = -b / (2 * a)
-
 # Respostas para a questão 1 da GS
 print('--' * 50)
 print('Differenciated Problem Solving - Global Solution Maio/Junho 2024 - Questão 1'.center(50 * 2))
