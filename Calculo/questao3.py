@@ -15,7 +15,7 @@ precos.append(preco_ingresso)
 vendas.append(vendas_ingressos)
 receitas.append(preco_ingresso * vendas_ingressos)
 
-# Calculando as vendas e os preços para cada aumento de R$5 no preço do ingresso, chegando até R$115
+# Calculando as vendas e os preços para cada aumento de R$5 no preço do ingresso, chegando até R$150
 for i in range(1, 21):
     preco_ingresso += 5
     vendas_ingressos -= 20
