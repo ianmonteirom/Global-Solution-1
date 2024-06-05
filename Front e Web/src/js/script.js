@@ -92,11 +92,21 @@ document.querySelectorAll('#menu .opcao').forEach(item => {
     });
 });
 
+
+
 function clickMenu() {
+    let menu = document.getElementById('menu');
+    let itemsMenu = document.querySelectorAll('#menu a');
+
     if (menu.style.display == 'block') {
         menu.style.display = 'none';
+        itemsMenu.forEach(function(item) {
+            item.style.display = 'block';
+        });
     } else {
-        menu.style.display =  'block';
-    }
-    
+        menu.style.display = 'block';
+        itemsMenu.forEach(function(item) {
+            item.style.display = 'block';
+        });
+    }    
 }
