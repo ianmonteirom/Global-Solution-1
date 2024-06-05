@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Abyssopelagic";
-    src: url('/src/assets/abyssopelagic.otf') format('opentype');
+    src: url('../assets/abyssopelagic.otf') format('opentype');
 }
 
 :root {
