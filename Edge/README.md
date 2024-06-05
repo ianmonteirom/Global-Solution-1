@@ -22,5 +22,8 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
   - Registro e visualização de espécies de peixes no sistema, com seu status (Liberada para pesca ou em Risco/Ameaça)
 - O sistema auxiliará na organização de ambos os lados, para mantê-los sempre atualizados com as áreas e espécies liberadas e proibidas para pesca, para ajudar os pescadores a pescarem de acordo com a lei, e para auxiliar os funcionários do governo a multar corretamente.
 
+## Agregando Edge Computing à Solução Pensada
+
+
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
