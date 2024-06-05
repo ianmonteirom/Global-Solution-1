@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="src/assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="src/css/style.css">
     <title>Fish Track</title>
 </head>
@@ -14,24 +15,25 @@
     <header>
         <h1><a href="index.html">Fish Track</a></h1>
         <nav>
-            <button id="btnMob">Menu
-                <span id="hamburg"></span>
-            </button>
             <ul id="menu">
-                <li><a href="#problema">Problema</a></li>
-                <li><a href="#tecnologia">Tecnologia</a></li>
-                <li><a href="#objetivos">Objetivos</a></li>
-                <li><a href="#publicoalvo">Público-Alvo</a></li>
-                <li><a href="#beneficios">Benefícios</a></li>
-                <li><a href="#diaadia">Dia a Dia</a></li>
+                <li><a href="#issue" class="opcao">Problema</a></li>
+                <li><a href="#tecnologia" class="opcao">Tecnologia</a></li>
+                <li><a href="#objetivos" class="opcao">Objetivos</a></li>
+                <li><a href="#publicoalvo" class="opcao">Público-Alvo</a></li>
+                <li><a href="#beneficios" class="opcao">Benefícios</a></li>
+                <li><a href="#diaadia" class="opcao">Dia a Dia</a></li>
                 <li><a href="./login.html" id="btnLogin">Login</a></li>
             </ul>
         </nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+       
 
     </header>
 
     <main>
-        <section id="problema">
+        <section id="issue">
             <div>
                 <h2>O problema que vai ser resolvido</h2>
                 <img src="" alt="Problemas da Pesca Desenfreada" id="imgProblema">
@@ -68,15 +70,15 @@
             <div>
                 <h2>Os beneficios oferecidos pela nossa solucao</h2>
                 <img src="" alt="Benefícios do Uso do Fish Track" id="imgBeneficios">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis ipsa in dolore quod tenetur reprehenderit repellendus sit explicabo alias laudantium illum optio ad nam, culpa dignissimos earum! Earum, qui.</p>
+                <p>Com o Fish Track, será possível registrar as áreas de pesca e as espécies de peixes no sistema, assim os pescadores poderão se manter sempre 100% atualizados sobre as áreas e espécies liberadas ou não para pesca, facilitando a organização e informação.</p>
             </div>
         </section>
 
         <section id="diaadia">
             <div>
                 <h2>Como nossa solucao ajudara no dia a dia do publico alvo?</h2>
-                <img src="" alt="Como a solução ajuda no dia a dia" id="imgDiaadia">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit est, praesentium quidem nihil voluptate officiis necessitatibus eum. Possimus dolores repudiandae magnam iusto, consectetur labore temporibus explicabo sequi vero at!</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_Q9zhBz3jpk?si=OuXUXYAOCz7piia-&amp;start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>O Fish Track facilitará na organização dos pescadores e funcionários do governo, mantendo todos os usuários 100% atualizados sobre as áreas/espécies liberadas ou não, e facilitando assim na aplicação de multas/punições.</p>
             </div>
         </section>
     </main>

@@ -74,14 +74,11 @@ header h1 a:hover {
     color: white;
 }
 
-#btnMob {
-    display: none;
-}
-
 #btnLogin {
     background-color: var(--cor1);
     border-radius: 20px;
     margin-left: 20px;
+    margin-top: 300px;
 }
 
 #btnLogin:hover {
@@ -90,10 +87,25 @@ header h1 a:hover {
     transition: box-shadow 0.3s ease;
 }
 
+span#burguer {
+    display: none;
+    padding-top: 15px;
+    padding-right: 1%;
+    font-size: 40px;
+}
+
+#burguer:hover {
+    cursor: pointer;
+    color: white;
+    
+}
+
+
 section {
     min-height: 65vh;
-    width: 100%;
+    width: 60%;
     padding-top: 10%;
+    margin: auto;
     
 }
 
@@ -117,14 +129,14 @@ div {
     justify-content: space-between;
     display: flex;
     margin: auto;
-    width: 60%;
+    max-width: 100%;
     background-color: var(--cor4);
     border-radius: 20px;
     min-height: 600px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
-div img {
+div img, iframe {
     height: 550px;
     width: 500px;
     margin-top: 2%;
@@ -132,14 +144,27 @@ div img {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
-#imgDiaadia {
-    margin-top: 5%;
-    width: 600px;
-}
-
 footer {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 10px;
+}
+
+/* Responsividade */
+
+@media (max-width: 1100px) {
+    span#burguer {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        
+    }
+
+    section {
+        padding-top: 40vh;
+    }
+ 
 }

@@ -80,18 +80,23 @@ function slideShowBeneficios(){
 }
 slideShowBeneficios();
 
-// SlideShow da Sessão do Dia a Dia
-let imagensDiaadia=['./src/assets/diaadia.png','./src/assets/diaadia2.png','./src/assets/diaadia3.png','./src/assets/diaadia4.png','./src/assets/diaadia5.png','./src/assets/diaadia6.png','./src/assets/diaadia7.png','./src/assets/diaadia8.png','./src/assets/diaadia9.png'];
-let indexDiaadia = 0;
-let timeDiaadia = 3000;
+// Efeito de rolagem suave quando o usuário clica em algum item do menu
+document.querySelectorAll('#menu .opcao').forEach(item => {
+    item.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    });
+});
 
-function slideShowDiaadia(){
-    document.getElementById('imgDiaadia').src=imagensDiaadia[indexDiaadia];
-    indexDiaadia++;
-
-    if(indexDiaadia == imagensDiaadia.length){
-        indexDiaadia = 0;
+function clickMenu() {
+    if (menu.style.display == 'block') {
+        menu.style.display = 'none';
+    } else {
+        menu.style.display =  'block';
     }
-    setTimeout('slideShowDiaadia()', timeDiaadia);
+    
 }
-slideShowDiaadia();
