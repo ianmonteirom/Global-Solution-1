@@ -24,7 +24,9 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 
 ## 💡 Agregando Edge Computing à Solução Pensada
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/8d6108de-7b26-4b04-8f93-05a417c50603)
-Para tornar o sistema mais completo, desenvolvi um projeto em Arduino que terá na sua versão completa um GPS imbutido, captando as coordenadas de onde os pescadores estarão localizados, e retornando em um display se a área está liberada ou proibida.
+Para tornar o sistema mais completo, desenvolvi um projeto em Arduino que terá na sua versão completa um GPS imbutido, captando as coordenadas de onde os pescadores estarão localizados, e retornando em um display se a área está liberada ou proibida, além disso, caso a área for proibida, o led vermelho do protótipo acenderá e a buzina começará a apitar, para facilitar o entendimento de que é uma área proibida. Caso seja uma área liberada, o led verde do protótipo acenderá.
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/f0266143-98d1-403a-94f7-76ff1e283f58)
+
 
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
