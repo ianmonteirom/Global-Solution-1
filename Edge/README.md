@@ -7,6 +7,7 @@
 - Turma: 1ESPH
 
 ## 🌊 O Cliente
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/8e473de9-45aa-4970-a181-5a4522750a57)
 - A Global Solution de 2024 trouxe o grupo Oceans 20, ou O20, um grupo de engajamento da sociedade civil focado nos oceanos criado pelo G20, grupo formado pelos 20 países mais ricos do mundo.
 
 ## 🤔 O Problema que nos foi passado
