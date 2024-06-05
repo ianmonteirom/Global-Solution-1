@@ -232,6 +232,12 @@ footer {
     }
 }
 
+@media (max-width: 415px) {
+    footer {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 400px) {
     div img, iframe {
         height: 300px;
