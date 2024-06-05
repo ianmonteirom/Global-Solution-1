@@ -34,8 +34,8 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/beec5243-5271-4f49-9bda-a5715b33de84)
 - Caso a área seja liberada, o Display mostra e o Led Verde acende:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/db4e9048-1b65-40d8-b8c1-17244793e98f)
-
-
+- Caso a área esteja proibida, o Display mostra e o Led Vermelho acende, além de a buzina apitar: 
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/109c3ba7-8b3f-4e76-b9c8-7e0e40137e28)
 
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
