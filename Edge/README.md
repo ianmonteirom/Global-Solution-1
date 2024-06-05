@@ -40,3 +40,15 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
+
+## 📝 Lista de Materiais
+- x1 Microcontrolador Arduino Uno;
+- x1 Breadboard;
+- x1 Display LCD 16x2 (I2C);
+- x1 Buzzer (Buzina);
+- x1 Led Vermelho;
+- x1 Led Verde;
+- x2 Resistores de 220Ω;
+- x8 Cabos Jumper;
+
+
