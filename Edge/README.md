@@ -36,6 +36,7 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/db4e9048-1b65-40d8-b8c1-17244793e98f)
 - Caso a área esteja proibida, o Display mostra e o Led Vermelho acende, além de a buzina apitar: 
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/109c3ba7-8b3f-4e76-b9c8-7e0e40137e28)
+- Neste protótipo, é escolhido aleatoriamente se a área é proibida ou liberada, entretanto em um projeto em seu estágio final ele teria um GPS imbutido captando coordenadas reais de onde o pescador está, e também um banco de dados com as áreas registradas, seu status (liberada ou proibida) e suas coordenadas reais, assim o projeto conseguirá de fato auxiliar os usuários.
 
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
