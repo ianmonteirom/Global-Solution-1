@@ -23,7 +23,8 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 - O sistema auxiliará na organização de ambos os lados, para mantê-los sempre atualizados com as áreas e espécies liberadas e proibidas para pesca, para ajudar os pescadores a pescarem de acordo com a lei, e para auxiliar os funcionários do governo a multar corretamente.
 
 ## 💡 Agregando Edge Computing à Solução Pensada
-Para tornar o sistema mais completo, desenvolvi um projeto em Arduino que 
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/8d6108de-7b26-4b04-8f93-05a417c50603)
+Para tornar o sistema mais completo, desenvolvi um projeto em Arduino que terá na sua versão completa um GPS imbutido, captando as coordenadas de onde os pescadores estarão localizados, e retornando em um display se a área está liberada ou proibida.
 
 ## 🛠️ Link para o Projeto Desenvolvido no Wokwi
 - https://wokwi.com/projects/399890970001703937
