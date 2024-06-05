@@ -39,6 +39,8 @@ void setup() {
 }
 
 void loop() {
+  digitalWrite(LEDG, LOW);
+  digitalWrite(LEDR, LOW);
   // Checa se a string está completa
   if (stringComplete) {
     if (askingForLatitude) {
@@ -74,6 +76,7 @@ void loop() {
         lcd.print("AREA");
         lcd.setCursor(4, 1);
         lcd.print("LIBERADA");
+        Serial.println("ÁREA LIBERADA");
       } else {
         digitalWrite(LEDG, LOW);
         digitalWrite(LEDR, HIGH);
@@ -83,7 +86,8 @@ void loop() {
         lcd.print("AREA");
         lcd.setCursor(4, 1);
         lcd.print("PROIBIDA");
-        tone(buzzerPin, 2000, 10000);
+        Serial.println("ÁREA PROIBIDA");
+        tone(buzzerPin, 2000, 7500);
       }
 
       // Pausa para que o usuário veja o resultado
