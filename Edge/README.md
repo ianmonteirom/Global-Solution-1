@@ -32,6 +32,8 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 - As perguntas de Latitude e Longitude também aparecem no display:
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/3933b410-dbe2-47d0-8c10-08ee010e0f3c)
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/beec5243-5271-4f49-9bda-a5715b33de84)
+- Caso a área seja liberada, o Display mostra e o Led Verde acende:
+![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/db4e9048-1b65-40d8-b8c1-17244793e98f)
 
 
 
