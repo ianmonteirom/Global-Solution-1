@@ -167,7 +167,7 @@ def menu(opc):
 # Função que executa o programa principal
 def programa_principal():
     while True:
-        cabecalho('Sistema de Controle de Pesca')
+        cabecalho('Fish Track - Sistema de Controle de Pesca')
         menu(opcoes)
         esc = ler_int(f'{verde}Sua escolha: {limpa_cor}')
         match esc:
