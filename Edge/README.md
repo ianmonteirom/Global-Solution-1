@@ -198,3 +198,11 @@ void serialEvent() {
 }
 ```
 
+## 👥 Créditos
+- Wokwi (Simulador): https://wokwi.com/
+- Tinkercad: https://www.tinkercad.com/
+- StackOverflow: https://stackoverflow.com/
+- ChatGPT: https://chatgpt.com/
+- Wiki de Bibliotecas do Arduino: https://www.arduino.cc/reference/en/libraries/
+- Github: https://github.com/
+- Microsoft Teams: https://teams.microsoft.com/
