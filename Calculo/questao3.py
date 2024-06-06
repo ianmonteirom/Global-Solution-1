@@ -28,8 +28,6 @@ precos = np.array(precos)
 vendas = np.array(vendas)
 receitas = np.array(receitas)
 
-print(receitas)
-
 
 # Respostas para a questão 3 da GS
 print('--' * 50)
