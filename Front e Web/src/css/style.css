@@ -12,7 +12,11 @@
     --cor2: #84D4F4;
     --cor3: #243C4C;
     --cor4: #658896;
-    --cor5: #8CBCCC;
+
+    --cor1noturno: #CBCDCC;
+    --cor2noturno: #002444;
+    --cor3noturno: #000D1D;
+    --cor4noturno: #001926;
 }
 
 * {
@@ -93,6 +97,14 @@ span#burguer {
     
 }
 
+#darkmode {
+    font-weight: bold;
+    
+}
+
+#lightmode {
+    display: none;
+}
 
 section {
     min-height: 65vh;

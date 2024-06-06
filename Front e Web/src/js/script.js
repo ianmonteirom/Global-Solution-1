@@ -110,3 +110,31 @@ function clickMenu() {
         });
     }    
 }
+
+function darkMode() {
+    let body = document.body;
+    let header = document.querySelector('header');
+    let links = document.querySelectorAll('a');
+    let divs = document.querySelectorAll('div');
+    let headingsAndParagraphs = document.querySelectorAll('h2, p');
+    let footer = document.querySelector('footer');
+
+    
+    links.forEach(function(link) {
+        link.style.color = "#CBCDCC";
+    });
+
+    divs.forEach(function(div) {
+        div.style.backgroundColor = "#001926";
+    });
+
+    headingsAndParagraphs.forEach(function(element) {
+        element.style.color = "#ffffff";
+    });
+
+
+    body.style.backgroundColor = '#002444';
+    header.style.backgroundColor = '#000D1D';
+    footer.style.color = 'white';
+
+}
