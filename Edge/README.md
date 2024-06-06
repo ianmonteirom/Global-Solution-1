@@ -52,6 +52,8 @@ Resolvi focar no problema da superexploração da pesca, que causa desequilíbri
 - x8 Cabos Jumper;
 
 ## 👨🏻‍💻 O Código do Projeto 
+- O código do projeto foi desenvolvido 100% em C++, em um arquivo .ino:
+```
 #include <LiquidCrystal_I2C.h>
 
 #define LEDR 7
@@ -194,5 +196,5 @@ void serialEvent() {
     }
   }
 }
-
+```
 
