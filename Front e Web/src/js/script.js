@@ -111,15 +111,18 @@ function clickMenu() {
     }    
 }
 
-function darkMode() {
     let body = document.body;
     let header = document.querySelector('header');
     let links = document.querySelectorAll('a');
     let divs = document.querySelectorAll('div');
     let headingsAndParagraphs = document.querySelectorAll('h2, p');
     let footer = document.querySelector('footer');
+    let burguer = document.querySelector('#burguer');
 
-    
+    let darkmode = document.querySelector('#darkmode');
+    let lightmode = document.querySelector('#lightmode');
+
+function darkMode() {
     links.forEach(function(link) {
         link.style.color = "#CBCDCC";
     });
@@ -136,5 +139,29 @@ function darkMode() {
     body.style.backgroundColor = '#002444';
     header.style.backgroundColor = '#000D1D';
     footer.style.color = 'white';
+    burguer.style.color = 'white';
 
+    darkmode.style.display = 'none';
+    lightmode.style.display = 'inline-block';
+}
+
+function lightMode() {
+    let h1h2ap = document.querySelectorAll('h1, h2, a, p');
+
+    divs.forEach(function(div) {
+        div.style.backgroundColor = "#658896";
+    });
+
+    h1h2ap.forEach(function(element) {
+        element.style.color = "black";
+    });
+
+
+    body.style.backgroundColor = '#84D4F4';
+    header.style.backgroundColor = '#243C4C';
+    footer.style.color = 'black';
+    burguer.style.color = 'black';
+
+    darkmode.style.display = 'inline-block';
+    lightmode.style.display = 'none';
 }
