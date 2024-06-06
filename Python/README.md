@@ -46,6 +46,6 @@ Um protótipo do Fish Track foi desenvolvido em Python, para possibilitar um mel
 ![image](https://github.com/ianmonteirom/Global-Solution-1/assets/152393807/02c3cd02-e9f0-4804-8b0b-34b485770ad1)
 
 ## ▶️ Vídeo Explicativo
-Link do Vídeo Explicativo: https://youtu.be/hnI1zMDy_L0
+Link do Vídeo Explicativo no YouTube: https://youtu.be/hnI1zMDy_L0
 
 
